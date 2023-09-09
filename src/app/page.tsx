@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 
 async function fetchAllblogs() {
-  const res = await fetch(`http://localhost:3000/api/blog`, {
+  const res = await fetch(`https://supabase-test-blog-re2nsgonw-sp-yoshimo.vercel.app/api/blog`, {
     cache: "no-store"
   })
 
