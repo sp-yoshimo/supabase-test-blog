@@ -91,7 +91,7 @@ const EditPage = ({ params }: { params: { id: number } }) => {
                 toast.error("エラーが発生しました", { id: "1" })
             })
 
-    }, [])
+    }, [params.id])
 
     return (
         <>
